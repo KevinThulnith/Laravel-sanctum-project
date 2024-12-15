@@ -39,7 +39,7 @@ Authenticated users can perform the following actions on posts:
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/KevinThulnith/Laravel-sanctum-project.git
    cd <repository-folder>
    ```
 

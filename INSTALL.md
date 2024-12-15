@@ -115,3 +115,25 @@ public function show(post $post)
     return $post;
 }
 ```
+
+## Set up Auth contrroller
+
+1. Make controller
+
+```bash
+php artisan make:controller authController
+```
+
+2. Set-up authController :
+
+- Set API token with user `app\Models\User.php`
+
+```bash
+use HasFactory, Notifiable, HasApiTokens;
+```
+
+- Set-up fillable fields
+
+```bash
+protected $fillable = ['name', 'email', 'password'];
+```
